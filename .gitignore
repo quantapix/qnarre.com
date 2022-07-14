@@ -1,0 +1,14 @@
+_gen
+.cache
+.data
+.env
+.hugo_build.lock
+.runs
+.save
+dev
+nil
+nil2
+nil3
+node_modules
+public
+yarn.lock
