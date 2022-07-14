@@ -1,0 +1,9 @@
+{{ define "nav" }}
+  {{ partial "navbar" . }}
+{{ end }}
+{{ define "main" }}
+  <div class="container-xxl my-md-4 qal-layout">
+    {{ partial "sidebar" . }}
+    {{ partial "main" . }}
+  </div>
+{{ end }}

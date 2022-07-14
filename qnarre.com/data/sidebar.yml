@@ -1,0 +1,76 @@
+- title: Modeling
+  section: modeling
+  pages:
+    - title: Overview
+      url: ./
+    - title: Judicial Simulation
+      url: simulation
+    - title: Conceptual Model
+      url: concepts
+    - title: Sample Report
+      url: report
+- title: Semantics
+  section: semantics
+  pages:
+    - title: Overview
+      url: ./
+    - title: Judicial Simulation
+      url: simulation
+    - title: Conceptual Model
+      url: concepts
+- title: Analytics
+  section: analytics
+  pages:
+    - title: Overview
+      url: ./
+    - title: Preparing Documents
+      url: prepare
+    - title: Extracting Narratives
+      url: extract
+    - title: Standardized Output
+      url: output
+    - title: Conflict Graph
+      url: graph
+    - title: Irrefutable Analytics
+      url: analyze
+- title: Reports
+  section: reports
+  pages:
+    - title: Overview
+      url: ./
+    - title: Generating Reports
+      url: prepare
+- title: The Story
+  section: story
+  pages:
+    - title: Overview
+      url: ./
+    - title: About
+      url: about
+    - title: Blog
+      url: blog
+- title: Available Tech
+  section: tech
+  pages:
+    - title: Overview
+      url: ./
+    - title: Trackable Persistence
+      url: trackable
+    - title: Many Smaller GPUs
+      url: gpus
+    - title: Datasets
+      url: dataset
+    - title: Unified Masking
+      url: masking
+    - title: Ragged Tensors
+      url: ragged
+    - title: Layers Simplified
+      url: layers
+    - title: Custom Layers
+      url: custom
+    - title: Autograph
+      url: autograph
+    - title: Modular Metrics
+      url: metrics
+    - title: Extended Callbacks
+      url: callbacks

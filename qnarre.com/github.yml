@@ -1,0 +1,60 @@
+languageCode: "en"
+title: "Qnarre"
+baseURL: "https://quantapix.github.io/"
+relativeURLs: true
+theme: "qalugo"
+
+security:
+  enableInlineShortcodes: true
+  funcs:
+    getenv:
+      - ^HUGO_
+      - NETLIFY
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+  highlight:
+    noClasses: false
+  tableOfContents:
+    startLevel: 2
+    endLevel: 6
+
+buildDrafts: true
+buildFuture: true
+
+enableRobotsTXT: true
+metaDataFormat: "yaml"
+disableKinds: ["404", "taxonomy", "term", "RSS"]
+
+module:
+  mounts:
+    - source: themes/qalugo/assets/js
+      target: assets/js
+    - source: themes/qalugo/assets/scss
+      target: assets/scss
+    - source: assets
+      target: assets
+    - source: themes/qalugo/content
+      target: content
+    - source: content
+      target: content
+    - source: themes/qalugo/data
+      target: data
+    - source: data
+      target: data
+    - source: themes/qalugo/layouts
+      target: layouts
+    - source: layouts
+      target: layouts
+    - source: themes/qalugo/static
+      target: static
+    - source: static
+      target: static
+
+
+params:
+  description: "A quick narrative analyzer for 'bipolar' text"
+  authors: "Qnarre - Software is our passion"
+  version: "0.1.0"

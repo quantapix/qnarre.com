@@ -1,0 +1,76 @@
+@import "../bootstrap/scss/functions";
+$qal-purple: #4c0bce;
+$qal-purple-bright: lighten(saturate($qal-purple, 5%), 15%);
+$qal-purple-light: lighten(saturate($qal-purple, 5%), 45%);
+$qal-download: #ffe484;
+$qal-dark: #2a2730;
+$qal-info: #5bc0de;
+$qal-warning: #f0ad4e;
+$qal-danger: #d9534f;
+$dropdown-active-icon: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'><path fill='#292b2c' d='M2.3 6.73L.6 4.53c-.4-1.04.46-1.4 1.1-.8l1.1 1.4 3.4-3.8c.6-.63 1.6-.27 1.2.7l-4 4.6c-.43.5-.8.4-1.1.1z'/></svg>");
+$sidebar-collapse-icon: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 16 16'><path fill='none' stroke='rgba(0,0,0,.5)' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M5 14l6-6-6-6'/></svg>");
+@import "../bootstrap/scss/variables";
+//@import "../bootstrap/scss/maps";
+@import "../bootstrap/scss/mixins";
+:root {
+  --qal-purple: #{$qal-purple};
+  --qal-purple-bright: #{$qal-purple-bright};
+  --qal-download: #{$qal-download};
+  --qal-purple-bright-rgb: #{to-rgb($qal-purple-bright)};
+  --qal-download-rgb: #{to-rgb($qal-download)};
+  --qal-pink-rgb: #{to-rgb($pink-500)};
+  --qal-teal-rgb: #{to-rgb($teal-500)};
+  --docsearch-primary-color: var(--qal-purple-bright);
+  --docsearch-logo-color: var(--qal-purple-bright);
+}
+pre {
+//  color: #567482;
+  margin: 10px 0 20px;
+  padding: 0.7em;
+  background: #f8f9fa;
+//  border-bottom: 2px solid #bdb6ad;
+  overflow: auto;
+}
+$enable-grid-classes: false;
+$enable-cssgrid: true;
+@import "../bootstrap/scss/grid";
+@import "../bootstrap/scss/root";
+@import "../bootstrap/scss/reboot";
+@import "../bootstrap/scss/type";
+//@import "scss/variables";
+@import "scss/navbar";
+@import "scss/subnav";
+@import "scss/slogan";
+@import "scss/ads";
+@import "scss/content";
+@import "scss/skippy";
+@import "scss/sidebar";
+@import "scss/layout";
+@import "scss/toc";
+@import "scss/footer";
+@import "scss/component-examples";
+@import "scss/buttons";
+@import "scss/callouts";
+@import "scss/brand";
+@import "scss/colors";
+@import "scss/clipboard-js";
+@import "scss/placeholder-img";
+@import "scss/syntax";
+@import "scss/anchor";
+@import "scss/algolia";
+.qal-navbar {
+  background-color: transparent;
+  background-image: linear-gradient(to bottom, rgba(var(--qal-purple-bright-rgb), 1), rgba(var(--qal-purple-bright-rgb), .95));
+  box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15), inset 0 -1px 0 rgba(0, 0, 0, .15);
+}
+.qal-footer {
+  text-align: center;
+}
+.qal-slogan {
+  --qal-pink-rgb: #{to-rgb($pink)};
+  background-image: linear-gradient(180deg, rgba(var(--bs-body-bg-rgb), .01), rgba(var(--bs-body-bg-rgb), 1) 85%),
+                    radial-gradient(ellipse at top left, rgba(var(--bs-primary-rgb), .5), transparent 50%),
+                    radial-gradient(ellipse at top right, rgba(var(--qal-download-rgb), .5), transparent 50%),
+                    radial-gradient(ellipse at center right, rgba(var(--qal-purple-bright-rgb), .5), transparent 50%),
+                    radial-gradient(ellipse at center left, rgba(var(--qal-pink-rgb), .5), transparent 50%);
+}

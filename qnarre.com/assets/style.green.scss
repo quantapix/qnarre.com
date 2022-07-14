@@ -1,0 +1,76 @@
+@import "../bootstrap/scss/functions";
+$body-bg: #f3f6fa;
+$qal-red: #159957;
+$qal-red-bright: lighten(saturate($qal-red, 5%), 5%);
+$qal-red-light: lighten(saturate($qal-red, 5%), 45%);
+$headings-color: #155799 !default;
+@import "../bootstrap/scss/variables";
+//@import "../bootstrap/scss/maps";
+@import "../bootstrap/scss/mixins";
+pre {
+  color: #567482;
+  margin: 10px 0 20px;
+  padding: 0.7em;
+  background: #f3f6fa;
+  border-bottom: 2px solid #bdb6ad;
+  overflow: auto;
+}
+$enable-grid-classes: false;
+$enable-cssgrid: true;
+@import "../bootstrap/scss/grid";
+@import "../bootstrap/scss/root";
+@import "../bootstrap/scss/reboot";
+@import "../bootstrap/scss/type";
+@import "scss/variables";
+$qal-purple: $qal-red;
+$qal-purple-bright: $qal-red-bright;
+$qal-purple-light: $qal-red-light;
+$qal-dark: #606c71;
+//$qal-download: #ffe484;
+//$qal-info: #5bc0de;
+//$qal-warning: #f0ad4e;
+//$qal-danger: #d9534f;
+@import "scss/navbar";
+@import "scss/subnav";
+@import "scss/slogan";
+@import "scss/ads";
+@import "scss/content";
+@import "scss/skippy";
+@import "scss/sidebar";
+@import "scss/layout";
+@import "scss/toc";
+@import "scss/footer";
+@import "scss/component-examples";
+@import "scss/buttons";
+@import "scss/callouts";
+@import "scss/brand";
+@import "scss/colors";
+@import "scss/clipboard-js";
+@import "scss/placeholder-img";
+@import "scss/syntax";
+@import "scss/anchor";
+@import "scss/algolia";
+.qal-footer {
+  color: $qal-purple-bright;
+  background: transparent;
+  //padding-top: 80px;
+  //margin: -60px auto 30px;
+  //max-width: 560px;
+  text-align: center;
+}
+
+$header-heading-color: #fff !default;
+$header-bg-color: #159957 !default;
+$header-bg-color-secondary: #155799 !default;
+
+$section-headings-color: #159957 !default;
+$body-text-color: #606c71 !default;
+$body-link-color: #1e6bb8 !default;
+$blockquote-text-color: #819198 !default;
+
+$code-bg-color: #f3f6fa !default;
+$code-text-color: #567482 !default;
+
+$border-color: #dce6f0 !default;
+$table-border-color: #e9ebec !default;
+$hr-border-color: #eff0f1 !default;

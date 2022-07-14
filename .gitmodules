@@ -1,0 +1,4 @@
+[submodule "lib/qalugo"]
+	path = lib/qalugo
+	url = https://github.com/quantapix/qalugo.git
+	branch = main

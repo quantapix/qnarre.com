@@ -1,0 +1,53 @@
+  "SideNav": [
+    {
+      "url": "teaser",
+      "title": "Teaser Deck",
+      "tooltip": "High level introduction to Qnarre"
+    },
+    {
+      "title": "Modeling Activism",
+      "tooltip": "Ideological judicial activism leads to chaos",
+      "children": [
+        {
+          "url": "stimulus",
+          "title": "Overview",
+          "tooltip": "Overview of our motivation"
+        },
+      ]
+    },
+    {
+      "title": "Fast Proxy Model",
+      "tooltip": "A flexible, scalable and testable prototyping model",
+      "children": [
+        {
+          "url": "proxy",
+          "title": "Overview",
+          "tooltip": "Overview of our approach"
+        },
+        {
+          "url": "proxy/conflict",
+          "title": "Predatory Profits",
+          "tooltip": "Predatory profits of 'high-conflict' divorces"
+        },
+        {
+          "url": "proxy/objects",
+          "title": "Psychological Profiling",
+          "tooltip": "Psychological non-profiles of 'frequent fliers'"
+        },
+        {
+          "url": "proxy/activism",
+          "title": "Fabricated Conflicts",
+          "tooltip": "From fabricated conflicts to ideological activism"
+        },
+        {
+          "url": "proxy/metrics",
+          "title": "Representative Metrics",
+          "tooltip": "Representative metrics through statistical modeling"
+        },
+        {
+          "url": "proxy/protect",
+          "title": "Protect From Predators",
+          "tooltip": "Learn, adapt and protect from predators"
+        }
+      ]
+    },
