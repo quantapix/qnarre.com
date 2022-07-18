@@ -4,7 +4,7 @@ title: A Software Engineer For Life
 description: 
 ---
 
-I am interested in algorithmically seeking out **contradictions** and **inconsistencies** in deceitful text, specifically in "bipolar" legal text. Here is my [resume](/resume.pdf) and personal ["history"](/history.pdf).
+I am interested in algorithmically seeking out **contradictions** and **inconsistencies** in deceitful text, specifically in "bipolar" legal text. Here is my [resume](/resume.pdf) and personal "[history](/history.pdf)."
 
 My public [repositories](https://github.com/quantapix) are under development with court-imposed deadlines. Therefore, I have started a [blog](https://github.com/quantapix/quantapix/blob/main/blog.md) to highlight my current, non-proprietary open source development activities.
 
